@@ -9,9 +9,7 @@
 	border: 0;
 	box-sizing: border-box;
 }
-li {
-	list-style: none;
-}
+
 a,
 a:visited {
 	text-decoration: none;
@@ -41,8 +39,6 @@ html {
 body {
 	line-height: 1;
 	font-family: "Roboto";
-	background: #5D62B5;
-	color: #fff;
 }
 .wrapper {
 	min-height: 100%;
@@ -51,7 +47,11 @@ body {
 }
 /* ----------------------- */
 .main {
-	border: 1px solid transparent;
+	max-width: 1500px;
+	margin: 0 auto;
+	background: #252525;
+	color: #fff;
+	padding: 50px 100px;
 }
 .name_margin {
 	font-weight: 400;
@@ -59,48 +59,60 @@ body {
 	line-height: 28px;
 	letter-spacing: -0.275px;
 	text-transform: capitalize;
-	margin: 0px 0px 50px 0px; 
+	margin: 50px 0px 70px 0px;
+	text-align: center;
 }
 .name__profession {
 	font-weight: 400;
 	font-size: 32px;
 	line-height: 28px;
 	letter-spacing: -0.275px;
-	margin: 0px 0px 50px 0px; 
+	margin: 0px 0px 100px 0px; 
+	text-align: center;
+}
+.name__profession::after {
+	content: "";
+	display: block;
+	width: 500px;
+	height: 2px;
+	background-color: #34C759;
+	margin: 50px auto;
 }
 .contacts {
-	font-weight: 400;
-	font-size: 26px;
-	line-height: 38px;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 58px;
 	letter-spacing: -0.275px;
 	margin: 0px 0px 50px 0px; 
 }
 .contacts__items {
-	
+	font-weight: 400;
+	font-size: 26px;
+	line-height: 48px;
+	letter-spacing: -0.275px;
+	margin: 0px 0px 50px 0px; 
 }
 .contacts__text {
 }
 .about {
 	margin: 0px 0px 50px 0px; 
 }
-.about__about-me {
+.about__about-me,
+.list {
 	font-weight: 400;
 	font-size: 26px;
-	line-height: 38px;
+	line-height: 48px;
 	letter-spacing: -0.275px;
 	margin: 0px 0px 50px 0px; 
+	max-width: 700px;
 }
 .skills,
 .courses,
 .edu,
 .lang {
-	font-weight: 400;
-	font-size: 26px;
-	line-height: 38px;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 48px;
 	letter-spacing: -0.275px;
 	margin: 0px 0px 50px 0px; 
-}
-.list {
-}
-.list__item {
 }
