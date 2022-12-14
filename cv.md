@@ -6,11 +6,11 @@
 ## My Contact Info:
 
 **Location:** Barcelona, Spain
-***
+
 **E-mail:** isemichasova@gmail.com
-***
+
 **Tel:** +34 684109820
-***
+
 **GitHub:** Irine7
 
 
