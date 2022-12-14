@@ -5,9 +5,12 @@
 
 ## My Contact Info:
 
-**Location:** Barcelona, Spain 
-**E-mail:** isemichasova@gmail.com 
-**Tel:** +34 684109820 
+**Location:** Barcelona, Spain
+***
+**E-mail:** isemichasova@gmail.com
+***
+**Tel:** +34 684109820
+***
 **GitHub:** Irine7
 
 
@@ -22,7 +25,8 @@
 
 
 **Courses:** 
-1. HTML and CSS Tutorials on the HTML Academy; Web Coding (HTML and CSS) by 2. Freelancer by life (in progress); 
+1. HTML and CSS Tutorials on the HTML Academy; 
+2. Web Coding (HTML and CSS) by Freelancer by life (in progress); 
 3. RS Schools Course «JavaScript/Front-end. Stage 0» (in progress).
 
 **Education:** 
