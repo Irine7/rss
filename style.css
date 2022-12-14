@@ -1,0 +1,106 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:regular,700,900&display=swap);
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px;
+}
+body {
+	line-height: 1;
+	font-family: "Roboto";
+	background: #5D62B5;
+	color: #fff;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	padding: 50px;
+}
+/* ----------------------- */
+.main {
+	border: 1px solid transparent;
+}
+.name_margin {
+	font-weight: 400;
+	font-size: 62px;
+	line-height: 28px;
+	letter-spacing: -0.275px;
+	text-transform: capitalize;
+	margin: 0px 0px 50px 0px; 
+}
+.name__profession {
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 28px;
+	letter-spacing: -0.275px;
+	margin: 0px 0px 50px 0px; 
+}
+.contacts {
+	font-weight: 400;
+	font-size: 26px;
+	line-height: 38px;
+	letter-spacing: -0.275px;
+	margin: 0px 0px 50px 0px; 
+}
+.contacts__items {
+	
+}
+.contacts__text {
+}
+.about {
+	margin: 0px 0px 50px 0px; 
+}
+.about__about-me {
+	font-weight: 400;
+	font-size: 26px;
+	line-height: 38px;
+	letter-spacing: -0.275px;
+	margin: 0px 0px 50px 0px; 
+}
+.skills,
+.courses,
+.edu,
+.lang {
+	font-weight: 400;
+	font-size: 26px;
+	line-height: 38px;
+	letter-spacing: -0.275px;
+	margin: 0px 0px 50px 0px; 
+}
+.list {
+}
+.list__item {
+}
