@@ -3,88 +3,110 @@
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<link rel="stylesheet" href="../rsschool-cv/style.css">
+	<link rel="stylesheet" href="../rsschool-cv/css/style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>CV</title>	
+	<title>CV Irina Semichasova</title>	
 </head>
 <body>
 	<div class="wrapper">
-		<header class="header"></header>
+		<header class="header">
+			<img class="header__img" src="../rsschool-cv/images/photo.png" alt="photo">
+			<div class="about">
+				<h1 class="about__title">Irina Semichasova</h1>
+				<h2 class="about__subtitle">Junior Front-End Developer</h2>
+				<p class="about__text">I am a marketing specialist by profession and tennis player and a coder by passion. Started to learn the coding by casual and would like to study up to a front end developer.</p>
+			</div>
+		</header>
 		<main class="main">
-			<div class="name name_margin">Irina Semichasova</div>
-			<div class="name__profession">Junior Frontend Developer</div>
-			<div class="image">
-				<img src="../rsschool-cv/img_me.jpeg" class="img-item" alt="">
-			</div>
-			<div class="contacts">My Contact Info:
-				<div class="contacts__items">
-					<p class="contacts__text">Location: Barcelona, Spain</p>
-					<p class="contacts__text">E-mail: isemichasova@gmail.com</p>
-					<p class="contacts__text">Tel: +34 684109820</p>
-					<p class="contacts__text">GitHub: Irine7</p>
+			<div class="aux-column">
+				<div class="contacs">
+					<h2 class="contacts__title">Contacts</h2>
+					<div class="contacs__items">
+						<p class="contacts__location">Location: Barcelona, Spain</p>
+						<p class="contact__email">Email:
+							<a class="email" href="mailto:isemichasova@gmail.com">isemichasova@gmail.com</a>
+						</p>
+						<p class="contacts__git">GitHub: 
+							<a class="git" href="https://github.com/Irine7">Irine7</a>
+						</p>
+					</div>
+				</div>
+				<div class="hard-skills">
+					<h2 class="hard-skills__title">Skills:</h2>
+					<div class="hard-skills__items">
+						<p class="hard-skills__item">HTML5; CSS3 (SASS/SCSS, BEM);</p>
+						<p class="hard-skills__item">VSCode;</p>
+						<p class="hard-skills__item">Git/GitHub;</p>
+						<p class="hard-skills__item">Figma, Adobe Photoshop</p>
+					</div>
+				</div>
+				<div class="lang">
+					<h2 class="lang__title">Languages</h2>
+					<div class="lang__items">
+						<p class="lang__item">English: C1 (oficial cirtificate);</p>
+						<p class="lang__item">Russian: native speaker;</p>
+						<p class="lang__item">Spanish: C2;</p>
+						<p class="lang__item">Catalan: A2</p>
+					</div>
+				</div>
+				<div class="hobbies">
+					<h2 class="hobbies__title">Hobbies</h2>
+					<div class="hobbies__items">
+						<img src="../rsschool-cv/images/icons/tennis.png" alt="Tennis" width="70">
+						<img src="../rsschool-cv/images/icons/books.png" alt="Reading" width="70">
+						<img src="../rsschool-cv/images/icons/lang.png" alt="Languages" width="70">
+						<img src="../rsschool-cv/images/icons/gym.png" alt="Gym" width="70">
+					</div>
 				</div>
 			</div>
-			<div class="about about_margin">
-				<div class="about__about-me">
-					<b>About me:</b>  I´m a marketing specialist by 	profession and tennis player and a coder by passion. Started to learn the coding by casual and would like to study up to a front end developer.
+			<div class="main-column">
+				<div class="courses">
+					<h2 class="courses__title">Courses</h2>
+					<p class="courses__item">HTML and CSS Tutorials on the HTML Academy;</p>
+					<p class="courses__item">Web Coding (HTML and CSS) by Freelancer by life (in progress);</p>
+					<p class="courses__item">RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</p>
+				</div>
+				<div class="edu">
+					<h2 class="edu__title">Education</h2>
+					<p class="edu__item">International Journalism_ (Bachelor degree), Ekaterinburg, Russia;</p>
+					<p class="edu__item">International Relationships_ (Master), Ekaterinburg, Russia;</p>
+					<p class="edu__item">Marketing, Barcelona, Spain</p>
+				</div>
+				<div class="soft-skills">
+					<h2 class="soft-skills__title">Soft skills</h2>
+					<p class="soft-skills__item">Responsible</p>
+					<p class="soft-skills__item">Organized</p>
+					<p class="soft-skills__item">Hardworking</p>
+					<p class="soft-skills__item">Self-learning</p>
+					<p class="soft-skills__item">Emotional intelligence</p>
+				</div>
+			<div class="my-project">
+				<div class="my-project__title">My project</div>
+					<div class="my-project__item">
+						<a class="my-project__link" href="https://irine7.github.io/First-project/">
+							<h3 class="projects__title">Forrest Travel web site</h3>
+							<div class="projects__item">
+								<img class="my-project__image_h" src="../rsschool-cv/images/project//head.png" height="250" width="576" alt="forrest travel head page">
+								<img class="my-project__image_f" src="../rsschool-cv/images/project/forrest.png" height="250" alt="forrest travel page">
+								<img class="my-project__image_p" src="../rsschool-cv/images/project/portfolio.png" height="250" alt="forrest travel page">
+							</div>
+						</a>
+					</div>
 				</div>
 			</div>
-			<div class="skills">Skills:
-				<ul class="list">
-					<li class="list__item">
-						HTML5; CSS3 (SASS/SCSS, BEM); 
-					</li>
-					<li class="list__item">
-						VSCode; 
-					</li>
-					<li class="list__item">
-						Git/GitHub; 
-					</li>
-					<li class="list__item">
-						Figma, Adobe Photoshop.
-					</li>
-				</ul>	
+		</main>
+		<footer class="footer">
+			<div class="footer-items">
+				<a class="git-item" href="https://github.com/Irine7">
+					<img src="../rsschool-cv/images/icons/git-footer.png" alt="Tennis" width="50">
+				</a>
+				<p class="date-item">2022</p>
+				<a class="school-item" href="https://rs.school/js/">
+					<img src="../rsschool-cv/images/icons/rs_school_js.svg" alt="RS-School" width="130">
+				</a>
 			</div>
-			<div class="courses">Courses:
-				<ol class="list">
-					<li class="list__item">
-						HTML and CSS Tutorials on the HTML Academy; 
-					</li>
-					<li class="list__item">
-						Web Coding (HTML and CSS) by Freelancer by life (in progress); 
-					</li>
-					<li class="list__item">
-						RS Schools Course «JavaScript/Front-end. Stage 0» (in progress).
-					</li>
-				</ol>
-			</div>
-			<div class="edu">Education:
-				<ul class="list">
-					<li class="list__item">
-						International Journalism_ (Bachelor degree), Ekaterinburg, Russia; 
-					</li>
-					<li class="list__item">
-						International Relationships_ (Master), Ekaterinburg, Russia;
-					</li>
-					<li class="list__item">
-						Marketing, Barcelona, Spain
-					</li>
-				</ul>
-			</div>
-			<div class="lang">Languages:
-				<ul class="list">
-					<li class="list__item">
-						English: C1 (oficial cirtificate);
-					</li>
-					<li class="list__item">
-						Russian: native speaker;
-					</li>
-					<li class="list__item">
-						Spanish: C2.
-					</li>
-				</ul>
-			</div>
-
+		</footer>
 	</div>
 </body>
 </html>
+
