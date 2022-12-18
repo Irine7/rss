@@ -247,3 +247,37 @@ body {
 	height: 25px;
 	padding-right: 35px;
 }
+
+/* ---------Footer part-------------- */
+
+.footer {
+	width: 100%;
+	padding: 5px 0px 30px 55px;
+	background-color: #c4c1d692;
+}
+.footer-items {
+	width: 100%;
+}
+.git-item {
+	display: inline-block;
+	position: relative;
+	top: 10px;
+	left: 200px;
+}
+.date-item {
+	max-width: 220px;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 24px;
+	color: #332F49;
+	display: inline-block;
+	position: relative;
+	top: 30px;
+	left: 450px;
+}
+.school-item {
+	display: inline-block;
+	position: relative;
+	top: 10px;
+	left: 700px;
+}
