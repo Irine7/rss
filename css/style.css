@@ -53,6 +53,7 @@ body {
 	min-height: 100%;
 	overflow: hidden;
 	max-width: 1200px;
+	max-height: 1900px;
 	margin: 0 auto;
 	background-color: #777299;
 	color: #332F49;
@@ -196,6 +197,7 @@ body {
 .hobbies__items {
 	padding: 20px 30px;
 }
+
 /* ---------Main column----------- */
 
 .main-column {
@@ -207,13 +209,14 @@ body {
 	border-radius: 10px;
 	background-color: #c4c1d692;
 	position: relative;
-	bottom: 930px;
+	top: -930px;
 	left: 450px;
 }
 
 .courses__title,
 .edu__title,
-.soft-skills__title {
+.soft-skills__title,
+.my-project__title {
 	font-size: 24px;
 	font-weight: 700;
 	line-height: 24px;
@@ -248,12 +251,51 @@ body {
 	padding-right: 35px;
 }
 
+.my-project__image_h:hover {
+	box-shadow: rgba(38, 38, 38, 0.368) 3px 3px 7px 2px;
+}
+
+.my-project__image_f:hover {
+	box-shadow: rgba(38, 38, 38, 0.368) 3px 3px 7px 2px;
+}
+
+.my-project__image_p:hover {
+	box-shadow: rgba(38, 38, 38, 0.368) 3px 3px 7px 2px;
+}
+
+.my-project__image_h {
+	border-radius: 10px 10px 0px 0px;
+}
+.my-project__image_f {
+	border-radius: 0px 0px 0px 10px;
+}
+
+.my-project__image_p {
+	border-radius: 0px 0px 10px 0px;
+}
+
+.projects__title {
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 28px;
+	padding: 0px 0px 10px 0px;
+	margin: 0 auto;
+	max-width: 250px;
+}
+
+.my-project__link:visited {
+	color: #332F49;
+}
+
 /* ---------Footer part-------------- */
 
 .footer {
 	width: 100%;
 	padding: 5px 0px 30px 55px;
 	background-color: #c4c1d692;
+	position: relative;
+	bottom: 850px;
+	left: 0;
 }
 .footer-items {
 	width: 100%;
